@@ -1,0 +1,14 @@
+# enter me into the playground
+
+query GetSearchResults {
+  search(term: "taco") {
+    results {
+      name
+      rating
+    }
+    # resolving this blocks calls to the business subgraph :(
+    bannerAd {
+      text
+    }
+  }
+}
