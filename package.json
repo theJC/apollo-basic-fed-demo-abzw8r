@@ -7,7 +7,7 @@
   "type": "module",
   "dependencies": {
     "@apollo/gateway": "2.x",
-    "@apollo/server": "^4.3.2",
+    "@apollo/server": "^4.9.3",
     "@apollo/server-plugin-landing-page-graphql-playground": "^4.0.0",
     "@apollo/subgraph": "2.x",
     "@graphql-tools/utils": "8.x",
